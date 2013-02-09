@@ -1,6 +1,6 @@
 function addTwoNumbers(a,b) {
 	var result = a + b;
-	retun result;
+	return result;
 }
 
 var x = addTwoNumbers(5,10);
