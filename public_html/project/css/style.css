@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(../images/darkermaroon.jpg);
+}
+
+#header {
+	border:groove;
+	border-color:#f2f2da;
+}
+
+.content{
+	width:100%;
+	margin:0;
+	overflow:hidden;
+	}
+
+#tbar .content{
+	height:10%;
+	background:url(../images/maroon.jpg);
+	-moz-box-shadow:0 1px 3px #999;
+	-webkit-box-shadow:0 1px 3px #999;
+	box-shadow:0 1px 3px #999;
+	overflow:visible;
+	}
+
+#tbar a{display:block;
+text-decoration:none;
+color:#fff;
+padding:7px 10px 6px;
+outline:0;
+height:10%;
+font-family:"Berlin Sans FB";
+}
+
+#tbar a:hover{
+	color:#FF9
+	}
+	
+.tbar-right{
+	float:right;
+	margin:0;
+	}
+	
+.tbar-right li{
+	color:#FFF;
+	font-size:93%;
+	line-height:100%;
+	display:inline-block;
+	border-left:1px solid #38342a; 
+	list-style-type:none
+	}
+	
+.tbar-right ul{
+	display:none
+	}
+.tbar-right ul{
+	position:absolute
+	}
+.tbar-right .hover{
+	display:block
+	}
+.tbar-right li{
+	font-size:108%
+	}
+
+#top{
+	background:url(../images/gold.jpg);
+	border-right:groove;
+	border-left:groove;
+	 }
+
+#sechead .jlog-logo {
+	overflow:hidden;
+	float:left;
+	background-position:0 0;
+	color:#000; 
+	text-decoration:none; 
+	font-family:Algerian;
+	}
+
+#sechead .smaller {
+	font-size:80%;
+	 margin: 0 0 20px 50px;
+	}
+
+#sechead .smaller2 {
+	display:none;
+}
+
+#sechead .jlog-small{
+	display:none;
+}
+
+#actionnavi{
+	float:right;
+	}
+
+#searchbox{
+	float:left;
+	outline:0;
+	-moz-box-shadow:inset 0 0 4px #ddd;
+	-webkit-box-shadow:inset 0 0 4px #ddd;
+	box-shadow:inset 0 0 4px #ddd;
+	border:1px solid #bbb;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	padding:2.5% 2%;
+	color:#aaa;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#searchbox:focus{
+	color:#666;
+	border:1px 
+	solid #666
+	}
+	
+#searchbutton{
+	float:left;
+	overflow:hidden;
+	background:url(../images/button.jpg); 
+	no-repeat -100% -20%;
+	border:0;  
+	font:Tahoma, Geneva, sans-serif; 
+	color:#FFF;
+	-moz-border-bottom-right-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	}
+
+#menu {
+	background:url(../images/gold.jpg);
+	border-right:groove;
+	border-left:groove;
+}
+
+#globalnavi {
+	border-top:double; 
+	border-color:#800000;
+	width:100%;
+	}
+
+#globalnavi a{
+	display:inline-block;
+	text-decoration:none;
+	font-weight:600;
+	font-size:120%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+#globalnavi .mainlinks li{
+	display:inline;
+	position:relative;
+	}
+	
+#globalnavi .mainlinks a{
+	color:#000; 
+	}
+	
+#globalnavi a:hover{
+	background:#500;
+	color:#fff
+	}
+	
+a#pull { 
+ 	display:none;
+}
+
+p#menu-item {
+	display:none;
+}
+
+#globalnavi li:last-child a {  
+    border-right: 0;  
+}  
+
+.home_block h4 {
+    background:url(../images/color-creme-de-banane.jpg) repeat-x top left;
+    font-weight: normal;
+    margin: 0;
+    padding: 1% 3%;
+    line-height: 23px; line-height: 2.3rem;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 10%;
+	border-bottom:inset;
+	font-family:"Bernard MT Condensed";
+	font-size:200%;
+	text-decoration:none;
+	color:#f2f2da;
+	text-align:center;
+}
+
+.home_block div.times p {
+	background:#FF9;
+	display:block;
+	margin-top:0;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-family:BodoniXT;
+	text-align:justify;
+
+}
+
+.home_block span.bigger {
+	white-space:pre-line;
+	font-size:150%;
+	padding:10%;
+	text-decoration:underline;
+}
+
+.home_block span.medium {
+	font-size:125%;
+	padding:15%;
+	white-space:pre;
+}
+
+#events.home_block .event_item, #events.home_block .event_item:visited {
+    clear: both;
+    display: block;
+    color: #353B35 !important;
+    text-decoration: none !important;
+}
+#events.home_block .event_date {
+    background:#303;
+    border: 3px solid #f2f2da;
+	width: 10%;
+    height: 15%;
+    padding: 2% 5%;
+    color: #f2f2da;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 12px; line-height: 1.5rem;
+    margin-bottom: 2%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	float:left;
+}
+#events.home_block .event_item:hover .event_date {
+    background-color: #343a35;
+}
+#events.home_block .event_date .day {
+    display: block;
+    font-size: 110%;
+}
+#events.home_block .event_details {
+    font-size: 120%;
+	float:left;
+	margin-left:8%;
+	text-align:center;
+	margin-top:10px;
+	text-align:left;
+}
+#events.home_block li .event_item:last-child .event_date, #events.home_block li .event_item:last-child .event_details {
+    margin-bottom: 0px;
+}
+#events.home_block .event_time {
+    font-size: 100%;
+    line-height: 1.6em;
+    font-style: italic;
+	text-align:center;
+}
+
+#events.home_block div.event_content ul{
+	background:#FF9;
+	display:block;
+	margin-top:0;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-family:BodoniXT;
+	text-align:justify;
+	list-style:none;
+}
+
+#footer {
+	position:relative;
+	bottom: 0;
+	margin-top:5%;
+	background:url(../images/darkermaroon.jpg);
+	border-top:groove;
+	
+}
+
+#social_media .sm_icon img {
+	clear:both;
+	margin-top: 2%;
+	margin-left: 17%;
+}
+
+#contact_info {
+	margin-left:17%;
+	margin-top:1%;
+	margin-bottom:1%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:100%;
+	color:#FFF;
+}
+
+@font-face {
+   	font-family: 'KingthingsCalligraphica';
+    src: url('font/kingthings_calligraphica_2-webfont.eot');
+    src: local('?'),
+         url('font/kingthings_calligraphica_2-webfont.woff') format('woff'),
+         url('font/kingthings_calligraphica_2-webfont.ttf') format('truetype'),
+         url('font/kingthings_calligraphica_2-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'BodoniXT';
+    src: url('BodoniXT-fontfacekit/BodoniXT-webfont.eot');
+    src: local('?'),
+         url('BodoniXT-fontfacekit/BodoniXT-webfont.woff') format('woff'),
+         url('BodoniXT-fontfacekit/BodoniXT-webfont.ttf') format('truetype'),
+         url('BodoniXT-fontfacekit/BodoniXT-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
